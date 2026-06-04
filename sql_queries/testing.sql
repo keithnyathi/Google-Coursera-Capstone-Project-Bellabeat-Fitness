@@ -1,3 +1,3 @@
 SELECT
     *
-FROM daily_activity_merged
+FROM weight_log_info_merged
