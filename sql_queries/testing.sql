@@ -1,4 +1,4 @@
 SELECT
-    TO_DATE(activity_date, 'MM/DD/YYYY') as cleaned_date
+    *
 FROM daily_activity_merged
 
