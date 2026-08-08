@@ -1,4 +1,4 @@
--- Create table to load the table containing users' merged minute sleep data.
+-- Create table to load the csv containing users' merged minute sleep data.
 
 CREATE TABLE sleep_day_merged (
     id TEXT,
@@ -14,4 +14,3 @@ COPY sleep_day_merged
 FROM 'C:\\Users\\Public\\Downloads\\sleepDay_merged.csv'
 WITH (FORMAT csv, HEADER true, ENCODING 'UTF8' )
 
-DROP TABLE sleep_day_merged

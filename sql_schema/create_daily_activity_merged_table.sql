@@ -1,5 +1,5 @@
 
--- Create table to load the table containing users' merged daily activity data
+-- Create table to load the csv containing users' merged daily activity data
 
 CREATE TABLE daily_activity_merged(
     id TEXT,
@@ -25,4 +25,3 @@ COPY daily_activity_merged
 FROM 'C:\\Users\\Public\\Downloads\\dailyActivity_merged.csv'
 WITH (FORMAT csv, HEADER true, ENCODING 'UTF8')
 
-DROP TABLE daily_activity_merged
